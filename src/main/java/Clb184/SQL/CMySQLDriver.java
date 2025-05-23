@@ -1,4 +1,4 @@
-package clb184.SQL;
+package Clb184.SQL;
 
 import java.sql.*;
 
