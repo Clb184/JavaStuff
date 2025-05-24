@@ -1,4 +1,4 @@
-package clb184.SQL;
+package Clb184.SQL;
 
 import java.sql.*;
 
@@ -23,6 +23,11 @@ public abstract class ISQLDriver {
     // Set the server's URL
     public static void SetServerURL(String server_url) {
         m_ServerURL = server_url;
+    }
+
+    // Set the server's URL + port
+    public static void SetServerURL(String server_url, int port) {
+        m_ServerURL = server_url + ":" + port;
     }
 
     // Set the name of the database to use
